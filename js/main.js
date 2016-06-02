@@ -1,0 +1,10 @@
+require.config({
+	paths:{
+		"zone":"zone",
+		"jquery":"jquery",
+		"public":"public",
+		"massage":"massage",
+		"massagejq":"massagejq",
+		"innovationjq":"innovationjq"
+	}
+})

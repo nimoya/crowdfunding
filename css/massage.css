@@ -1,0 +1,410 @@
+.mail{
+	width: 22px;
+	height: 16px;
+	float: right;
+	margin: 35px 18px 0 18px;
+}
+.user-login{
+	width: 94px;
+	height: 80px;
+	float: right;
+	margin-left: 14px;
+	background-color:#0F2038;
+	
+}
+.username{
+	float: right;
+	color: white;
+	font-size: 12px;
+	margin: 36px 0 0 10px;
+	width: 45px;
+}
+.user-login img{
+	float: right;
+	width: 26px;
+	height: 26px;
+	margin-top: 30px;
+	border-radius: 3px;
+}
+.grey-triangle{
+	float: right;
+	width:0; 
+    height:0;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-left:6px solid transparent;
+    border-right:6px solid transparent;
+    border-top:8px solid #444444;
+}
+#personal{
+	width: 149px;
+	height: 250px;
+	position: absolute;
+	right: -18px;
+	top: 65px;
+	z-index: 1;
+	border-top: 1px solid #d3d3d3;
+	text-align: center;
+	background-color: #FEFEFE;
+	display: none;
+}
+.sub{
+	width: 148px;
+	height: 49px;
+	border: 1px solid #d3d3d3;
+	border-top: 0;
+}
+.sub a{	
+	line-height: 49px!important;
+	font-size: 12px;
+	color: black;
+	text-decoration: none;
+}
+.sub img{
+	width: 12px;
+	height: 12px;
+}
+/*正文*/
+.content{
+	min-height:560px;
+	border-left: 1px solid #D4D4D4;
+	border-right: 1px solid #D4D4D4;
+	border-bottom: 0!important;
+	background-color: #F2F2F2!important;
+	overflow: hidden;
+}
+/*左边栏*/
+.menubar{
+	float: left;
+	width: 199px;
+	background-color: #F2F2F2;
+}
+.title{
+	line-height: 78px;
+	text-align: center;
+	font-size: 21px;
+	height: 78px;
+	border-bottom: 1px solid #D4D4D4;
+}
+.bar{
+	width: 199px;
+	height: 60px;
+	border-bottom: 1px solid #D4D4D4;
+	line-height: 60px;
+	text-align: center;
+	font-size: 14px;
+	background-color: #EFEDED;
+	cursor: pointer;
+	position: relative;
+	z-index: 1;
+}
+/*long*/
+#bar ul .barActive{
+	background-color: #FEFEFE;
+	width: 200px;
+}
+#bar ul .barNotActive{
+	background-color: #EFEDED;
+	
+}
+/*左边栏结束*/
+/*详情*/
+#details{
+	float: right;
+	width: 900px;
+	background-color: #FEFEFE;
+	border-left: 1px solid #D4D4D4;
+}
+#details>li{
+	/*long*/
+	min-height:720px;
+	
+}
+.detail{
+	width: 900px;
+	margin: 0 40px;
+}
+/*私信*/
+.private{
+	display: block;
+}
+.release{
+	float: right;
+	height: 32px;
+	width: 80px;
+	border: 1px solid #d1d0d0;
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: normal;
+}
+.release img{
+	width: 14px;
+	height: 10px;
+	margin-left: 7px;
+}
+/*评论*/
+.comment{
+	display: none;
+}
+/*新粉丝*/
+.fan{
+	display: none;
+}
+/*通知*/
+.notice{
+	display: none;
+}
+.notice-title{
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 37px;
+	width: 820px;
+	height: 37px;
+	border-bottom: 2px solid #FCC43D;
+	margin-top: 40px;
+}
+.notice-text{
+	position: relative;
+}
+.evenotice{
+	width: 820px;
+	padding-top: 20px;
+	border-bottom: 1px solid #D1D0D0;
+}
+.evenotice-img{
+	width: 50px;
+	float: left;
+}
+.evenotice-img img{
+	width: 50px;
+	height: 50px;
+	padding-bottom: 20px;
+}
+.evenotice-text{
+	float: left;
+	width: 730px;
+	padding-left: 20px;
+}
+.evenotice-title{
+	height: 20px;
+	padding-top: 3px;
+}
+.evenotice-title img{
+	width: 14px;
+	height: 14px;
+	padding-top: 1px;
+}
+.evenotice-name{
+	float: left;
+	width: 300px;
+	font-weight: bold;
+	font-size: 15px;
+}
+.evenotice-date{
+	float: right;
+	width: 135px;
+	font-size: 12px;
+	color: #999999;
+}
+.evenotice-notice{
+	font-size: 12px;
+	color: #999999;
+	padding-top: 5px;
+	width: 610px;
+}
+.evenotice-delete{
+	width: 24px;
+	float: right;
+	margin-bottom: 10px;
+}
+.evenotice-delete a{
+	font-size: 12px;
+	color: #DA121B;
+}
+.evecomment-comment{
+	font-size: 12px;
+	padding-top: 10px;
+	width: 610px;
+}
+/*.evecomment-anchor{
+	float: right;
+	width: 10px; 
+    height:10px;
+    margin: 0 auto;
+    margin-top: 7px;
+    border-right: 1px solid #8cc1d7;
+    border-top: 1px solid #8cc1d7;
+    transform:rotate(135deg);
+    cursor: pointer;
+}*/
+/*long*/
+.evecomment-anchor{
+	width:26px;
+	height: 22px;
+	float: right;
+	margin:0 auto;
+	cursor:pointer;
+	
+}
+.upbg{
+	background: url(../images/massageUp.png);
+}
+.downbg{
+	background: url(../images/massageDown.png);
+}
+/*long*/
+.evecomment-source{
+	background-color: #f2f2f2;
+	width: 705px;
+	height: 30px;
+	line-height: 30px;
+	color: #999999;
+	font-size: 12px;
+	padding-left: 15px;
+	margin: 15px 0;
+}
+.evecomment-date{
+	color: #999999;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+/*回复*/
+.response{
+	width: 800px;
+	border-bottom: 1px solid #D1D0D0;
+	padding: 20px 0 0 20px;
+	background-color: #F2F2F2;
+	display: none;
+}
+.response img{
+	float: left;
+	width: 30px;
+	height: 30px;
+	padding-right: 20px;
+}
+.response-box{
+	float: left;
+	width: 720px;
+	height: 28px;
+	line-height: 30px;
+	color: #999999;
+	font-size: 12px;
+	padding-left: 15px;
+	border: 1px solid #D1D0D0;
+}
+.response span{
+	float: right;
+	width: 20px;
+	margin: 26px 15px 0 0;
+	font-size: 12px;
+}
+.response-btn{
+	float: right;
+	width: 52px;
+	height: 27px;
+	border: 0;
+	border-radius: 3px;
+	background-color: #529AB8;
+	margin: 20px 50px 20px 0;
+}
+/*回复删除选择菜单*/
+#response-menu{
+	width: 78px;
+	height: 60px;
+	border: 1px solid #d1d0d0;
+	border-bottom: 0;
+	position: absolute;
+	right: 220px;
+	background-color: #FEFEFE;
+	text-align: center;
+	display: none;
+}
+#response-menu a{
+	width: 78px;
+	border-bottom: 1px solid #d1d0d0;
+	padding: 7px 27px;
+	color: #666666;
+	text-decoration: none;
+	line-height: 30px;
+	font-size: 12px;
+}
+#response-menu a:hover{
+	background-color: #F2F2F2;
+}
+/*通知结束*/
+/*.page{
+	float: right;
+	width: 475px;
+	margin: 30px 0;
+	font-size: 12px;
+	color: #666666;
+}
+.page a{
+	color: #666666;
+	text-decoration: none;
+}
+.page a:hover{
+	text-decoration: underline;
+}
+.page0{
+	margin-right: 42px;
+	cursor: default;
+}
+.page-border{
+	border: 1px solid #D1D0D0;
+	padding: 2px 6px;
+	cursor:default;
+	margin: 0 -6px; 
+	text-decoration: none!important;
+}
+.page1,.page2,.page3,.page4,.page5{
+	margin-right: 42px;
+}*/
+#pages{
+	/*float: right;*/
+	width: 455px;
+	margin: 30px auto;
+	font-size: 15px;
+	color: #666666;
+	text-align: center;
+	/*long*/
+	height: 50px;
+}
+#pages input{
+	width:50px;
+	height:30px;
+	text-align: center;
+	
+}
+#up{
+	margin-right: 10px;
+}
+#next{
+	margin-left: 10px;
+}
+#pages ul li,#pages ul span{
+	display: block;
+	width:28px;
+	height:28px;
+	/*border: 1px solid #CECECE;*/
+	line-height: 28px;
+	margin:0 10px;
+}
+#pages ul li:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.activePage{
+	border: 1px solid #CECECE;
+}
+.noPage{
+	text-decoration: none;
+}
+#pages input,#pages ul li,#pages ul span{
+	float:left;
+}
+#pages input{
+	background: #FFFFFF;
+	border:1px solid #CECECE;
+}
+

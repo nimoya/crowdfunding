@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>zone</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/zone.css" />
+		<script src="js/require.js" data-main="js/main" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			require(["zone"], function() {
+				console.log("loaded");
+			});
+		</script>
+	</head>
+
+	<body>
+		<!--header start-->
+		<!-- tab选项卡 -->
+		<div class="tab">
+			<div class="tab-center">
+				<div class="tab-logo">
+					<div class="tab-logo1"><img src="images/logo4.gif"></div>
+					<div class="tab-logo2">
+						<h4>创客空间</h4></div>
+				</div>
+				<div id="tab-left">
+					<ul>
+						<li class="tab-box" id="yes">
+							<div class="tabs"><a href="#">首页</a></div>
+							<div class="tab-triangle"></div>
+						</li>
+						<li class="tab-box" style="width: 64px;">
+							<div class="tabs"><a href="#">创新创业</a></div>
+							<div class="tab-triangle"></div>
+						</li>
+						<li class="tab-box">
+							<div class="tabs"><a href="#">大赛</a></div>
+							<div class="tab-triangle"></div>
+						</li>
+						<li class="tab-box">
+							<div class="tabs"><a href="#">其他</a></div>
+							<div class="tab-triangle"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="tab-right">
+					<div class="login" style="display: none;">
+						<a href="#">登录</a>
+						<span>/</span>
+						<a href="#">注册</a>
+					</div>
+					<div class="user-login" id="user">
+						<div class="grey-triangle"></div>
+						<div class="username">某某某</div>
+						<img src="images/logo12.gif">
+					</div>
+					<div class="mail">
+						<img src="images/logo11.gif">
+					</div>
+					<div id="personal">
+						<ul>
+							<li class="sub">
+								<img src="images/0-1.png">
+								<a href="#">个人中心</a>
+							</li>
+							<li class="sub">
+								<img src="images/1-1.png">
+								<a href="#">个人设置</a>
+							</li>
+							<li class="sub">
+								<img src="images/2-1.png">
+								<a href="#">发布项目</a>
+							</li>
+							<li class="sub">
+								<img src="images/3-1.png">
+								<a href="#">切换账号</a>
+							</li>
+							<li class="sub">
+								<img src="images/4-1.png">
+								<a href="#">退出登录</a>
+							</li>
+						</ul>
+					</div>
+					<!-- 搜索 -->
+					<div class="search">
+						<form>
+							<input type="submit" value="" class="search-button">
+							<input type="text" name="" class="search-text" placeholder="大赛/人名/活动/其他">
+						</form>
+					</div>
+				</div>
+
+			</div>
+			<div class="tab-bottom"></div>
+		</div>
+		<!-- tab选项卡结束 -->
+		<!--header over-->
+		<!--content start-->
+		<div class="content">
+			<div class="personInfo">
+				<div class="chatHead">
+				</div>
+				<div class="detail">
+					<div class="namePer">
+						<span class="name">某某某&nbsp;</span>
+						<span class="info">假装这里是个人简介</span>
+						<hr />
+						<div class="careCount">
+							<p>250</p>
+							<span>关注</span>
+						</div>
+						<div class="fansCount">
+							<p>250</p>
+							<span>粉丝</span>
+						</div>
+						<div class="department">
+							<p>学院专业班级：<span>管理学院信管13-2班</span></p>
+							<p>特长：<span>反射弧特长。。。。。</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="main">
+				<ul id="parts">
+					<li class="partActive" data-value="1">
+						<p>我发布的</p>
+					</li>
+					<li class="" data-value="2">我喜欢的</li>
+					<li class="" data-value="3">我参与的</li>
+				</ul>
+				<div id="sort">
+					<span id="time" class="sortActive">
+						时间
+					</span>↓<span>人气</span>↓
+				</div>
+				<div class="line">
+
+				</div>
+
+				<ul id="partType">
+					<li class="partTypeActive" style="background: #E5AF30;">全部</li>
+					<li class="partTypeNotActive">准备中</li>
+					<li class="partTypeNotActive">重筹中</li>
+					<li class="partTypeNotActive">已完成</li>
+				</ul>
+				<ul class="projectInfo">
+					<!--<div style="width:100%;height: 1px;background: #8D8C8C;">
+						
+					</div>-->
+					<!--<li class="firstProjec">
+						<div class="projectImg">
+							<img src="" />
+						</div>
+						<div class="projectDetail">
+							<h4>项目名称</h4>
+							<span>发布人：某某某&nbsp;&nbsp;</span> <span>发布时间：2016-5-25</span>
+						</div>
+						<div class="projectBut">
+							<span><a href="">查看项目</a></span> <span id="deleteSign"><img src="images/rabish.png"/></span>
+						</div>
+
+					</li>-->
+					<!--<li><div class="projectImg"><img src="" /></div><div class="projectDetail"><h4>项目名称</h4><span>发布人：某某某&nbsp;&nbsp;</span> <span>发布时间：2016-5-25</span></div><div class="projectBut"><span><a href="">查看项目</a></span> <span id="deleteSign"><img src="images/rabish.png"/></span></div></li>-->
+
+				</ul>
+
+				<div class="addMore">
+					<p>浏览更多项目</p>
+				</div>
+			</div>
+
+		</div>
+		<!--content is over-->
+		<!--footer is start-->
+		<div class="bottom" id="footer">
+			<!-- 底部 -->
+			<div class="bottom">
+				<div class="bottom-center">
+					<div class="logo">
+						<div class="logo-logo">
+							<img src="images/logo5.gif">
+						</div>
+					</div>
+					<div class="share">
+						<div class="bottom-text">
+							<a href="#">关于我们</a> — <a href="#">联系我们</a> — <a href="#">帮助中心</a>
+							<p>如果您喜欢我们的网站，可以分享至:</p>
+						</div>
+						<div class="share-logo" id="share-logo">
+							<input type="button" value="" class="share-logo1">
+							<input type="button" value="" class="share-logo2">
+							<input type="button" value="" class="share-logo3">
+						</div>
+					</div>
+					<div class="opinion">
+						<img src="images/logo9.gif">
+						<a href="#">意见反馈</a>
+					</div>
+				</div>
+			</div>
+			<!--footer is over-->
+			<!--<iframe src="footer.html" style="border: 0;"></iframe>-->
+			<a href="javascript:;" id="top-btn"></a>
+			<!--<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>-->
+			<script type="text/javascript" src="js/public.js"></script>
+			<!--<script type="text/javascript">
+			
+		</script>-->
+
+	</body>
+
+</html>

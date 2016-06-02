@@ -1,0 +1,190 @@
+/*正文*/
+.tab-logo1{
+	margin-top:30px;
+}
+.middle{
+    width: 1100px;
+    margin: 0 auto;
+    padding:0 25px 1 25px;
+    background-color: #FEFEFE;
+    border-bottom: 1px solid #D4D4D4; 
+    position:relative;
+}
+.title{
+    /*position: absolute;*/
+    /*left: 103px;
+    top: 66px;*/
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    padding-top:40px;
+}
+.title a{
+    color: black;
+    text-decoration: none;
+}
+.title hr{
+    background-color: #faba24;
+    height: 1px;
+    /*margin-left: -73px;*/
+    /*margin-top: 5px;*/
+    width: 100%;
+    border: 0;
+}
+.inner-top{
+    /*position: absolute;*/
+    /*top: 105px;*/
+    text-align: center; 
+    padding-top:30px;
+}
+.all,.hotest,.newest{
+    width: 50px;
+    background-color: #faba24;
+    font-size: 14px;
+    color: black; 
+    font-family: Microsoft YaHei;
+    text-decoration: none;
+}
+.all{
+    float: left;
+    margin-left: 103px;
+    padding: 4px 7.5px;
+}
+/*long*/
+#inner-toright{
+	/*clear: both;*/
+	float:right;
+}
+/*long*/
+.hotest{
+    float: right;
+    margin-right: 107px;
+    padding: 4px 2px;
+    background-color: #0f2038;
+    color: #ffffff;
+}
+.newest{
+    float: right;
+    padding: 4px 2px;
+}
+.content1{
+    /*margin-left: 47px;*/
+   clear: both;
+   padding-left:47px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+.con{
+    width: 260px;
+    height: 322px;
+    float: left;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.con img{
+    width: 260px;
+    height: 175px;
+}
+.con p{
+    font-family: Microsoft YaHei;
+}
+.text-title{
+    margin: 20px 0;  
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.text-title a,.text-title a:visited{
+    font-size:18px;
+    font-family:Microsoft YaHei;
+    text-decoration: none;
+    color:black;
+    width:100%;
+}
+.text-uper{
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    color: #a7a7a7;
+    float: left;
+    width: 100px;
+}
+.text-time{
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    color: #a7a7a7;
+    float: right;
+    width: 83px;
+}
+.con span{
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: SimSun;
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.span1{
+    display: none;
+}
+.thispage{
+    border-radius: 2px;
+    border:1px solid #d1d0d0;
+    padding: 2px 6px;
+    text-decoration: none!important;
+    cursor:default;
+    margin: 0 -6px; 
+}
+
+/*long*/
+#pages{
+	width: 475px;
+	margin: 30px auto;
+	font-size: 15px;
+	color: #666666;
+	text-align: center;
+	/*long*/
+	height: 50px;
+}
+#pages input{
+	width:50px;
+	height:30px;
+	text-align: center;
+	
+}
+#up{
+	margin-right: 10px;
+}
+#next{
+	margin-left: 10px;
+}
+#pages ul li,#pages ul span{
+	display: block;
+	width:28px;
+	height:28px;
+	/*border: 1px solid #CECECE;*/
+	line-height: 28px;
+	margin:0 10px;
+}
+#pages ul li:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.activePage{
+	border: 1px solid #CECECE;
+}
+.noPage{
+	text-decoration: none;
+}
+#pages input,#pages ul li,#pages ul span{
+	float:left;
+}
+#pages input{
+	background: #FFFFFF;
+	border:1px solid #CECECE;
+}
+.hid{
+	display:none;
+}

@@ -1,0 +1,173 @@
+.content{
+	width: 1056px;
+	margin: 0 auto;
+	background-color: #FEFEFE;
+	border-bottom: 1px solid #D4D4D4; 
+	padding-left: 27px;
+	padding-right:27px;
+}
+.personInfo{
+	height:240px;
+	padding-top:40px;
+}
+.chatHead {
+	width: 200px;
+	height: 200px;
+	/*margin-top: 40px;*/
+	margin-left: 0px;
+	margin-right: 15px;
+	background: #e5af30;
+	border:1px solid #d3d3d3;
+	padding: 2px;
+	float:left;
+}
+.detail{
+	float:left;
+	width:800px;
+	
+}
+.namePer{
+	width:100% ;
+	height: 40px;
+}
+.name{
+	font-size: 24px;
+	font-weight: 100;
+}
+.info{
+	color: #3090B8;
+}
+.careCount,.fansCount{
+	width: 70px;
+	height: 50px;
+	float: left;
+	margin-top: 10px;
+	font-size: 18px;
+	text-align:center;
+	
+}
+.careCount span,.fansCount span{
+	font-size: 12px;
+}
+.fansCount{
+	border-left: 1px solid #666666;
+	border-right: 1px solid #666666;
+	margin-bottom:50px;
+}
+.department{
+	clear: both;	
+}
+.department p{
+	line-height: 30px;
+}
+#main{
+	/*height: 700px;*/
+}
+#parts{
+	float:left;
+	width:300px;
+}
+#parts li{
+	width: 100px;
+	height:33px;
+	float:left;
+	font-size: 22px;
+	text-align: center;
+	color: #0E1022;
+	cursor:pointer;
+	
+}
+#parts li:hover{
+	color: #E5AF30;
+}
+
+#parts li.partActive{
+	color: #E5AF30;
+}
+
+
+#sort{
+	float:right;
+	width: 200px;
+	text-align: right;
+	line-height:33px ;
+}
+.sortActive{
+	color: #E5AF30;
+}
+.line{
+	height: 2px;
+	background: #E5AF30;
+	clear: both;
+}
+#partType{
+	height:50px;
+	clear: both;
+}
+#partType li{
+	width: 80px;
+	height:30px;
+	/*background:#E5AF30;*/
+	border: 1px solid #cecece;
+	border-radius: 20px;
+	line-height: 30px;
+	text-align: center;
+	float:left;
+	margin:20px 20px 20px 10px;
+	cursor: pointer;
+
+}
+#partType li:hover{
+	background-color: #E5AF30;
+}
+.projectInfo li{
+	clear: both;
+	height: 100px;
+	
+	border-top:1px solid #CECECE;
+	padding: 24px 50px 24px 20px;
+}
+.projectImg{
+	width: 200px;
+	height:102px;
+}
+.projectImg img{
+	width: 100%;
+	height: 100%;
+}
+.projectInfo li div{
+	float:left;
+}
+.projectDetail{
+	padding-left: 20px;
+}
+.projectInfo h4{
+	line-height: 60px;
+	width: 500px;
+}
+.projectBut{
+	padding-top: 30px;
+	padding-left: 90px;
+}
+.projectBut span{
+	margin-left:30px ;
+}
+.lastProjec{
+	border-top: 1px solid #CECECE;
+}
+.addMore{
+	width: 100%;
+	height:100px;
+	padding-top: 30px;
+	border-top:1px solid #CECECE;
+}
+.addMore p{
+	display: block;
+	height:50px;
+	background: #CECECE;
+	width: 700px;
+	margin:0 auto;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+}
