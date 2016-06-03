@@ -312,3 +312,102 @@ li{
 	background: url(../images/top.png);
 	display: none;
 }
+/*登录框*/
+.login-box{
+	width: 548px;
+	height: 348px;
+	border: 1px solid #0f2038;
+	position: fixed;
+	top: 183px;
+	left: 400px;
+	border-radius: 3px;
+	z-index: 200;
+	background-color: #FFFFFF;
+	font-size: 12px;
+}
+.login-title{
+	width: 529px;
+	height: 40px;
+	background-color: #0f2038;
+	color: white;
+	font-weight: bold;
+	line-height: 40px;
+	padding-left: 19px;
+	font-size: 14px;
+}
+.login-title span{
+	width: 100px;
+	float: left;
+}
+.login-content{
+	width: 548px;
+	height: 227px;
+	border-bottom: 1px solid #D1D0D0;
+	margin-top: 28px;
+}
+.login-content input{
+	width: 233px;
+	height: 33px;
+	color: #C8C6C6;
+	margin-left: 157px;
+	margin-top: 17px;
+	border: 1px solid #D0D1D1;
+	padding-left: 9px;
+}
+.login-content button{
+	width: 235px;
+	height: 35px;
+	background-color: #2789B2;
+	border-radius: 3px;
+	margin-left: 156px;
+	margin-top: 38px;
+	border: 0;
+	color: white;
+}
+.no-account{
+	float: right;
+	width: 128px;
+	line-height: 52px;
+	color: #BBBABA;
+}
+.no-account a{
+	color: #BBBABA;
+}
+/*注册框*/
+.register-content{
+	width: 548px;
+	height: 244px;
+	border-bottom: 1px solid #D1D0D0;
+	margin-top: 11px;
+}
+.register-content input{
+	width: 233px;
+	height: 33px;
+	color: #C8C6C6;
+	margin-left: 157px;
+	margin-top: 17px;
+	border: 1px solid #D0D1D1;
+	padding-left: 9px;
+}
+.register-content button{
+	width: 235px;
+	height: 35px;
+	background-color: #2789B2;
+	border-radius: 3px;
+	margin-left: 156px;
+	margin-top: 26px;
+	border: 0;
+	color: white;
+}
+.back-login{
+	line-height: 52px;
+	color: #31A1C7;
+	font-size: 14px;
+	padding-left: 17px;
+}
+.back-login a{
+	color: #31A1C7;
+}
+.none{
+	display: none;
+}
