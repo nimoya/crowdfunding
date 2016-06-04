@@ -357,7 +357,13 @@ li{
 .login-content button{
 	width: 235px;
 	height: 35px;
-	background-color: #2789B2;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#4DB3DD,endColorStr=#107097); /*IE 6 7 8*/ 
+	background: -ms-linear-gradient(top, #4DB3DD,  #107097);        /* IE 10 */
+	background:-moz-linear-gradient(top,#4DB3DD,#107097);/*火狐*/ 
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#4DB3DD), to(#107097));/*谷歌*/ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4DB3DD), to(#107097));/* Safari 4-5, Chrome 1-9*/
+	background: -webkit-linear-gradient(top, #4DB3DD, #107097);   /*Safari5.1 Chrome 10+*/
+	background: -o-linear-gradient(top, #4DB3DD, #107097);  /*Opera 11.10+*/
 	border-radius: 3px;
 	margin-left: 156px;
 	margin-top: 38px;
@@ -392,7 +398,13 @@ li{
 .register-content button{
 	width: 235px;
 	height: 35px;
-	background-color: #2789B2;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#4DB3DD,endColorStr=#107097); /*IE 6 7 8*/ 
+	background: -ms-linear-gradient(top, #4DB3DD,  #107097);        /* IE 10 */
+	background:-moz-linear-gradient(top,#4DB3DD,#107097);/*火狐*/ 
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#4DB3DD), to(#107097));/*谷歌*/ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4DB3DD), to(#107097));/* Safari 4-5, Chrome 1-9*/
+	background: -webkit-linear-gradient(top, #4DB3DD, #107097);   /*Safari5.1 Chrome 10+*/
+	background: -o-linear-gradient(top, #4DB3DD, #107097);  /*Opera 11.10+*/
 	border-radius: 3px;
 	margin-left: 156px;
 	margin-top: 26px;
