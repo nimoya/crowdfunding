@@ -475,3 +475,99 @@
 	float: right;
 	line-height: 56px;
 }
+/*新增回复界面*/
+.response-private{
+	width: 818px;
+	height: 148px;
+	border: 1px solid #D1D0D0;
+	border-radius: 5px;
+	margin-top: 13px;
+	background-color: #F2F2F2;
+}
+.response-private input{
+	width: 760px;
+	height: 63px;
+	border-radius: 5px;
+	border: 1px solid #D1D0D0;
+	margin-top: 14px;
+	margin-left: 29px;
+}
+.response-private button{
+	float: right;
+	width: 50px;
+	height: 25px;
+	border: 0;
+	border-radius: 2px;
+	background-color: #3090B8;
+	margin-right: 29px;
+	margin-top: 24px;
+	color: white;
+}
+.response-private span{
+	float: right;
+	width: 38px;
+	line-height: 72px;
+	font-size: 12px;
+}
+.chatting{
+	width: 820px;
+}
+.chatting-date{
+	width: 100px;
+	height: 30px;
+	margin: 33px auto 25px;
+	background-color: #A3A3A3;
+	color: white;
+	font-size: 12px;
+	border-radius: 5px;
+	line-height: 30px;
+	text-align: center;
+}
+.every-chat>img{
+	width: 50px;
+	height: 50px;
+}
+.every-chat{
+	clear: left;
+	width: 330px;
+}
+.chat-content{
+	width: 300px;
+}
+.chat-content img{
+	margin-top: 5px;
+	width: 234px;
+	height: 40px;
+}
+.chat-left img{
+	margin-left: 15px;
+}
+.chat-right img{
+	margin-left: 30px;
+}
+.chat-content div{
+	width: 217px;
+	min-height: 38px;
+	border: 1px solid #D1D0D0;
+	border-radius: 3px;
+	margin-top: -40px;
+	background-color: #FEFEFE;
+	position: absolute;
+	z-index: 1;
+	line-height: 38px;
+	padding-left: 10px;
+}
+.chat-left div{
+	border-left: 0;
+	margin-left: 81px;
+}
+.chat-right div{
+	border-right: 0;
+	margin-left: 20px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
