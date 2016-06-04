@@ -407,4 +407,71 @@
 	background: #FFFFFF;
 	border:1px solid #CECECE;
 }
-
+/*发新私信弹出框*/
+.new-private{
+	width: 548px;
+	height: 268px;
+	border: 1px solid #0f2038;
+	position: fixed;
+	top: 261px;
+	left: 473px;
+	border-radius: 3px;
+	z-index: 200;
+	background-color: #FFFFFF;
+	font-size: 12px;
+}
+.private-title{
+	width: 529px;
+	height: 40px;
+	background-color: #0f2038;
+	color: white;
+	font-weight: bold;
+	line-height: 40px;
+	padding-left: 19px;
+	font-size: 14px;
+	border-radius: 2px;
+}
+.private-content{
+	width: 548px;
+	height: 227px;
+	border-bottom: 1px solid #D1D0D0;
+}
+.private-content input{
+	width: 487px;
+	height: 33px;
+	color: #C8C6C6;
+	margin-left: 30px;
+	margin-top: 19px;
+	border: 1px solid #D0D1D1;
+	padding-left: 9px;
+}
+.private-content textarea{
+	width: 487px;
+	height: 98px;
+	border: 1px solid #D0D1D1;
+	resize: none;
+	margin-top: 12px;
+	margin-left: 30px;
+}
+.private-content button{
+	float: right;
+	width: 50px;
+	height: 25px;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#40ACDA,endColorStr=#2E8CAE); /*IE 6 7 8*/ 
+	background: -ms-linear-gradient(top, #40ACDA,  #2E8CAE);        /* IE 10 */
+	background:-moz-linear-gradient(top,#40ACDA,#2E8CAE);/*火狐*/ 
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#40ACDA), to(#2E8CAE));/*谷歌*/ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#40ACDA), to(#2E8CAE));/* Safari 4-5, Chrome 1-9*/
+	background: -webkit-linear-gradient(top, #40ACDA, #2E8CAE);   /*Safari5.1 Chrome 10+*/
+	background: -o-linear-gradient(top, #40ACDA, #2E8CAE);  /*Opera 11.10+*/
+	border-radius: 2px;
+	margin-right: 30px;
+	margin-top: 15px;
+	border: 0;
+	color: white;
+}
+.private-content span{
+	width: 38px;
+	float: right;
+	line-height: 56px;
+}
