@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html charset=UTF-8">
+	<title>homepage</title>
+	<link rel="stylesheet" type="text/css" href="public.css">
+	<link rel="stylesheet" type="text/css" href="publish.css">
+</head>
+
+<body>
+	<!-- tab选项卡 -->
+	<div class="tab">
+		<div class="tab-center">
+			<div class="tab-logo">
+				<div class="tab-logo1" style="margin-top:5px;">
+					<img src="images/logo4.gif">
+				</div>
+				<div class="tab-logo2">
+					<h4>创客空间</h4></div>
+			</div>
+			<div id="tab-left">
+				<ul>
+					<li class="tab-box" id="yes">
+						<div class="tabs"><a href="#">首页</a></div>
+						<div class="tab-triangle"></div>
+					</li>
+					<li class="tab-box" style="width: 64px;">
+						<div class="tabs"><a href="#">创新创业</a></div>
+						<div class="tab-triangle"></div>
+					</li>
+					<li class="tab-box">
+						<div class="tabs"><a href="#">大赛</a></div>
+						<div class="tab-triangle"></div>
+					</li>
+					<li class="tab-box">
+						<div class="tabs"><a href="#">其他</a></div>
+						<div class="tab-triangle"></div>
+					</li>
+				</ul>
+			</div>
+			<div class="tab-right">	
+				<div class="login" style="display: none;">
+					<a href="#">登录</a>
+					<span>/</span>
+					<a href="#">注册</a>
+				</div>
+				<div class="user-login" id="user">
+					<div class="grey-triangle"></div>
+					<div class="username">某某某</div>
+					<img src="images/logo12.gif">					
+				</div>
+				<div class="mail">
+					<img src="images/logo11.gif">
+				</div>
+				<div id="personal">
+					<ul>
+						<li class="sub">
+							<img src="images/0-1.png">
+							<a href="#">个人中心</a>
+						</li>
+						<li class="sub">
+							<img src="images/1-1.png">
+							<a href="#">个人设置</a>
+						</li>
+						<li class="sub">
+							<img src="images/2-1.png">
+							<a href="#">发布项目</a>
+						</li>
+						<li class="sub">
+							<img src="images/3-1.png">
+							<a href="#">切换账号</a>
+						</li>
+						<li class="sub">
+							<img src="images/4-1.png">
+							<a href="#">退出登录</a>
+						</li>
+					</ul>
+				</div>
+				<!-- 搜索 -->
+				<div class="search">
+					<form>
+						<input type="submit" value="" class="search-button">
+						<input type="text" name="" class="search-text" placeholder="大赛/人名/活动/其他">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="tab-bottom"></div>
+	</div>
+	<!-- 正文 -->
+	<div class="content">
+		<div class="start">
+			<span>HI,</span>
+			<span style="color:#fcc43d">某某某</span>
+			<span>,你离梦想又近了一步！带有</span>
+			<span style="color:#e96767">*</span>
+			<span>是必填项哦</span>
+		</div>
+		<div class="grade">
+			<form>
+				<label>专业年级</label>
+				<span style="color:#e96767">*</span>
+				<input type="text" class="input-text"/>
+			</form>
+		</div>
+		<div class="major">
+			<form>
+				<label>专业介绍</label>
+				<span style="color:#e96767">*</span>
+				<input type="text" class="input-text" value="简要说明专业特色，能够贡献的力量与专业知识"/>
+				<span>还可输入</span>
+				<span style="color:#f03c3c">50</span>
+				<span>字</span>
+			</form>
+		</div>
+		<div class="major">
+			<form>
+				<label>项目名称</label>
+				<span style="color:#e96767">*</span>
+				<input type="text" class="input-text" value="高度概括作品，将项目亮点提炼在名称中"/>
+				<span>还可输入</span>
+				<span style="color:#f03c3c">50</span>
+				<span>字</span>
+			</form>
+		</div>
+		<div class="introduce">
+			<form>
+				<label>项目介绍</label>
+				<span style="color:#e96767;float:left;line-height: 140px;">*</span>
+				<textarea class="input-text">准确到位的作品说明，突出创意点，若是包含某些特殊要求请标注（比如需要会编程，会ps等）</textarea>
+				<div class="more-box">
+					<span>还可输入</span>
+					<span style="color:#f03c3c">1000</span>
+					<span>字</span>
+				</div>
+			</form>
+		</div>
+		<div class="number">
+			<form>
+				<label>团队成员</label>
+				<span style="color:#e96767">*</span>
+				<input type="number" class="input-text">
+			</form>
+		</div>
+		<div class="img-publish">
+			<form>
+				<label>上传照片</label>
+				<span style="color:#e96767;font-size:14px;">*</span>
+				<button>选择图片</button>
+				<span>支持jpg/gif/png格式,RGB模式,单张（长<8000,宽<2000,大小<1M）,最多上传100张图片,支持批量上传。</span>
+				<div class="describe">
+					<img src="images/img1.png">
+					<textarea class="input-text">简短的图片说明,根据图片描述项目状态</textarea>
+					<span>还可输入</span>
+					<span style="color:#f03c3c">200</span>
+					<span>字</span>
+				</div>
+				<div class="describe" style="margin-top:14px;">
+					<img src="images/img1.png">
+					<textarea class="input-text">简短的图片说明,根据图片描述项目状态</textarea>
+					<span>还可输入</span>
+					<span style="color:#f03c3c">200</span>
+					<span>字</span>
+				</div>
+			</form>
+		</div>
+		<div class="schedule">
+			<span>项目进展</span>
+			<span style="color:#e96767;font-size:14px;">*</span><br>
+			<div class="schedule-time">
+				<span>项目时间</span>
+			</div>
+			<div class="schedule-situation">
+				<span style="float:left">项目说明</span>
+				<textarea class="input-text">描述在特定时间段内项目进行的情况</textarea>
+				<div class="more-box2">
+					<span>还可输入</span>
+					<span style="color:#f03c3c">1000</span>
+					<span>字</span>
+				</div>
+				<button>增加进展情况</button>
+			</div>
+		</div>
+		<div class="contact-information">
+			<form>
+				<div class="contact-title">
+					<span>联系方式</span>
+				</div>
+				<div class="contact-number">
+					<input class="input-text" value="联系电话">
+					<span>*</span><br>
+					<input class="input-text" value="常用邮箱"><br>
+					<input class="input-text" value="QQ账号">
+				</div>
+			</form>
+		</div>
+		<div class="submit-publish">
+			<button></button>
+		</div>
+	</div>
+	<!-- 底部 -->
+	<div class="bottom" id="footer">
+		<!-- 底部 -->
+		<div class="bottom">
+			<div class="bottom-center">
+				<div class="logo">
+					<div class="logo-logo">
+						<img src="images/logo5.gif">
+					</div>
+				</div>
+				<div class="share">
+					<div class="bottom-text">
+						<a href="#">关于我们</a> — <a href="#">联系我们</a> — <a href="#">帮助中心</a>
+						<p>如果您喜欢我们的网站，可以分享至:</p>
+					</div>
+					<div class="share-logo" id="share-logo">
+                    <input type="button" value="" class="share-logo1">
+                    <input type="button" value="" class="share-logo2">
+                    <input type="button" value="" class="share-logo3">
+                </div>
+				</div>
+				<div class="opinion">
+					<img src="images/logo9.gif">
+					<a href="#">意见反馈</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a href="javascript:;" id="top-btn"></a>
+</body>
+</html>
