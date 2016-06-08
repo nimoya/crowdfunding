@@ -1,0 +1,210 @@
+.content{
+	border-bottom: 0;
+}
+.start{
+	height: 90px;
+	font-size: 14px;
+	color: #555555;
+	letter-spacing: 1px;
+	line-height: 90px;
+	padding-left: 28px;
+	border-bottom: 1px dashed #c9c9c9;
+}
+.grade{
+	height: 114px;
+	line-height: 114px;
+	border-bottom: 1px dashed #c9c9c9;
+	padding-left: 28px;
+}
+.grade input{
+	width: 269px;
+	height: 38px;
+}
+.input-text{
+	-webkit-box-shadow:inset 0 0 8px #d9d9db;
+    -moz-box-shadow:inset 0 0 8px #d9d9db;
+    box-shadow:inset 0 0 8px #d9d9db;
+    border: 1px solid #d9d9db;
+    margin-left: 7px;
+    margin-right: 15px;
+    padding-left: 24px;
+    color: #bfbfbf;
+}
+.major{
+	height: 126px;
+	line-height: 126px;
+	border-bottom: 1px dashed #c9c9c9;
+	padding-left: 28px;
+}
+.major span{
+	font-size: 12px;
+	color: #333333;
+}
+.major input{
+	width: 804px;
+	height: 38px;
+}
+.introduce{
+	height: 268px;
+	border-bottom: 1px dashed #c9c9c9;
+	padding-left: 28px;
+}
+.introduce label{
+	display: block;
+	line-height: 140px;
+	float: left;
+	width: 73px;
+}
+.introduce textarea{
+	width: 804px;
+	height: 154px;
+	resize: none;
+	margin-top: 49px;
+	padding-top: 14px;
+	float: left;
+}
+.introduce span{
+	font-size: 12px;
+	color: #333333;
+}
+.more-box{
+	float: right;
+	margin-top: 200px;
+	margin-right: 38px;
+}
+.number{
+	height: 138px;
+	line-height: 138px;
+	border-bottom: 1px dashed #c9c9c9;
+	padding-left: 28px;
+}
+.number input{
+	width: 80px;
+	height: 38px;
+}
+.img-publish{
+	height: 339px;
+	border-bottom: 1px dashed #c9c9c9;
+	padding-left: 28px;
+	padding-top: 49px;
+}
+.img-publish button{
+	width: 75px;
+	height: 40px;
+	color: #fcc43d;
+	font-weight: bold;
+	background-color: #0f2038;
+	box-shadow: inset 0 0 12px #d9d9db;
+	webkit-box-shadow: inset 0 0 12px #d9d9db;
+    -moz-box-shadow: inset 0 0 12px #d9d9db;
+	margin-right: 5px;
+	margin-left: 7px;
+	border: 1px solid #d9d9db;
+	cursor: pointer;
+}
+.img-publish>form>span{
+	font-size: 12px;
+	color: #bbbbbb;
+}
+.describe{
+	width: 942px;
+	height: 106px;
+	margin-top: 25px;
+	margin-left: 86px;
+}
+.describe img{
+	width: 175px;
+	height: 105px;
+}
+.describe textarea{
+	width: 624px;
+	height: 89px;
+	resize: none;
+	padding-top: 14px;
+	margin-left: 1px;
+}
+.describe span{
+	font-size: 12px;
+}
+.schedule{
+	height: 374px;
+	border-bottom: 1px dashed #c9c9c9;
+	padding-left: 28px;
+	padding-top: 28px;
+}
+.schedule-time{
+	padding-top: 30px;
+	height: 50px;
+}
+.schedule-situation{
+	height: 260px;
+}
+.schedule-situation textarea{
+	width: 777px;
+	height: 154px;
+	float: left;
+	margin-left: 24px;
+	margin-top: 10px;
+	padding-top: 14px;
+	resize: none;
+}
+.more-box2{
+	float: right;
+	margin-top: 162px;
+	margin-right: 63px;
+}
+.more-box2 span{
+	font-size: 12px;
+	color: #333333;
+}
+.schedule-situation button{
+	width: 104px;
+	height: 39px;
+	background-color: #0f2038;
+	color: #fcc43d;
+	font-weight: bold;
+	box-shadow: inset 0 0 12px #d9d9db;
+	webkit-box-shadow: inset 0 0 12px #d9d9db;
+    -moz-box-shadow: inset 0 0 12px #d9d9db;
+	margin-top: 25px;
+	margin-left: 88px;
+	border: 1px solid #d9d9db;
+	cursor: pointer;
+}
+.contact-information{
+	height: 237px;
+	border-bottom: 1px dashed #c9c9c9;
+	padding-left: 28px;
+}
+.contact-information input{
+	width: 269px;
+	height: 38px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.contact-title{
+	float: left;
+	margin-top: 57px;
+	margin-right: 17px;
+}
+.contact-number{
+	float: left;
+	margin-top: 48px;
+}
+.contact-number span{
+	color: #e96767;
+	font-size: 14px;
+}
+.submit-publish{
+	height: 141px;
+	padding-left: 28px;
+}
+.submit-publish button{
+	width: 168px;
+	height: 53px;
+	margin-top: 31px;
+	margin-left: 88px;
+	cursor: pointer;
+	background: url(images/background6.png);
+	border: 0;
+}
